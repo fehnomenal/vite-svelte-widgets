@@ -9,6 +9,8 @@
   {@html styles}
 </svelte:head>
 
-<div class="font-sans">
+<div class="font-sans shadow-lg m-10 p-3 rounded-xl bg-gray-100">
   <slot />
 </div>
+
+<style uno:preflights uno:safelist></style>
