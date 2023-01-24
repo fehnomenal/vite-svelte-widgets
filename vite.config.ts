@@ -12,6 +12,9 @@ export default defineConfig({
       emitCss: false,
     }),
   ],
+  server: {
+    open: 'widget-a.html',
+  },
   build: {
     rollupOptions: {
       input: {
