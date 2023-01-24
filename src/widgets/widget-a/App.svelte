@@ -1,6 +1,9 @@
 <script lang="ts">
+  import WidgetContainer from '../components/WidgetContainer.svelte';
 </script>
 
-This is Widget A
+<WidgetContainer>
+  This is Widget A
 
-<p class="c-red">red</p>
+  <p class="c-red">red</p>
+</WidgetContainer>

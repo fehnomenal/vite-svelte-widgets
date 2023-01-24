@@ -4,6 +4,7 @@ importers:
 
   .:
     specifiers:
+      '@fontsource/roboto': ^4.5.8
       '@sveltejs/vite-plugin-svelte': ^2.0.0
       '@tsconfig/svelte': ^3.0.0
       '@unocss/reset': ^0.48.4
@@ -14,6 +15,7 @@ importers:
       unocss: ^0.48.4
       vite: ^4.0.0
     devDependencies:
+      '@fontsource/roboto': 4.5.8
       '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.55.1+vite@4.0.4
       '@tsconfig/svelte': 3.0.0
       '@unocss/reset': 0.48.5
@@ -246,6 +248,10 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/roboto/4.5.8:
+    resolution: {integrity: sha512-CnD7zLItIzt86q4Sj3kZUiLcBk1dSk81qcqgMGaZe7SQ1P8hFNxhMl5AZthK1zrDM5m74VVhaOpuMGIL4gagaA==}
+    dev: true
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
